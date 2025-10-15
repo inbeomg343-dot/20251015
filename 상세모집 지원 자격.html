@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>모집공고 화면입니다.</title>
+
+<style>
+*{ margin:0; padding:0; }
+  body {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+     no-repeat center center/cover; /
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+  .wrapper {width: 700px; background: rgba(0,0,0,0.6); color: #fff; text-align: center; padding: 40px 20px; border: 2px solid #c00; box-shadow: 0 6px 20px rgba(0,0,0,0.5); background: url('images/mojip01.jpg')}
+
+#inner{position:relative;width:500px; height:400px:10px;}
+  /*header*/
+  h1 {font-size: 28px; margin-bottom: 30px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6); text-align:center;}
+
+  .info-box {
+    background: rgba(255,255,255,0.75); color: #000; width: 70%;
+    margin: 0 auto 30px auto; padding: 20px; border-radius: 8px; text-align: left;
+    line-height: 1.8; font-size: 16px; }
+
+  ul {list-style-type: disc; padding-left: 20px; margin: 0;}
+
+  .info-box p {margin-top: 12px; text-align:left; }
+
+  .footer {
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: bold;
+    text-shadow: 19 1px 3px rgba(0,0,0,0.6);}
+
+  .footer .highlight {color: #ffff; text-align:right;}
+  
+  .note { font-size: 15px; margin-top: 10px; color: #ddd; text-left:10px;}
+	
+	.div:nth-child{box-shadow:10px -20px 20px #333; }
+
+</style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>상세모집 지원 자격</h1>
+
+    <div class="info-box">
+      <ul>
+        <li>성별: 무관</li>
+        <li>나이: 20세 ~ 60세</li>
+      </ul>
+      <p>숨만 잘 쉬고 힘센 사람이면 누구나... 환영</p>
+    </div>
+
+    <p class="note">많은 지원 바랍니다.</p>
+
+    <div class="footer">
+      TEL : <span class="highlight">02) 6958-5870</span><br>
+      FAX : <span class="highlight">02) 2039-7362</span>
+    </div>
+  </div>
+
+</body>
+</html>
